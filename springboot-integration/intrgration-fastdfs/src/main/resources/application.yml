@@ -1,0 +1,18 @@
+#fdfs
+fastdfs:
+  open: true
+  file_path: /home/hexinx/test/picR/
+  server_url: http://117.71.32.235:18078/t/picR/
+  upload:
+    # 线上使用
+    # addr: http://117.71.34.249:86/
+    # 测试
+    addr: http://47.96.106.114/
+  connect_timeout_in_seconds: 100
+  network_timeout_in_seconds: 300
+  charset: UTF-8
+  http_anti_steal_token: no
+  http_secret_key: FastDFS1234567890
+  http_tracker_http_port: 8888
+  # server之间用逗号','分隔
+  tracker_servers: 47.96.106.114:22122
